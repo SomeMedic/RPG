@@ -1,0 +1,46 @@
+{
+  "name": "@somemedic/rpg",
+  "version": "1.0.1",
+  "description": "Rapid Package Generator - современный пакетный менеджер с поддержкой шаблонов проектов",
+  "type": "module",
+  "bin": {
+    "rpg": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "package-manager",
+    "cli",
+    "templates",
+    "react",
+    "next",
+    "vue",
+    "express",
+    "nest",
+    "electron",
+    "react-native"
+  ],
+  "author": "SomeMedic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeMedic/rpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SomeMedic/rpg/issues"
+  },
+  "homepage": "https://github.com/SomeMedic/rpg#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
