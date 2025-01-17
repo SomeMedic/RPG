@@ -9,12 +9,12 @@
 #### Windows
 ```powershell
 # Запустите PowerShell от имени администратора и выполните:
-iwr -useb https://raw.githubusercontent.com/SomeMedic/rpg/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/SomeMedic/rpg/master/install.ps1 | iex
 ```
 
 #### Linux/macOS
 ```bash
-curl -fsSL https://raw.githubusercontent.com/SomeMedic/rpg/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/SomeMedic/rpg/master/install.sh | bash
 ```
 
 ### Ручная установка
